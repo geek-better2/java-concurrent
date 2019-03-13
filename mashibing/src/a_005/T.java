@@ -31,6 +31,7 @@ public class T {
         }
         long end = new Date().getTime();
         System.out.println("m 所 耗用时间 " + (end - start));
+        System.out.println("I love you");
 
         long start2 = new Date().getTime();
         for (int i = 0; i < 1000; i++) {
